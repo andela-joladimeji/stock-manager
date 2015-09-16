@@ -75,6 +75,7 @@ public class Product implements Serializable {
 		table.addRow("______", "______", "________________", "___________",
 				"______");
 
+	
 		Iterator<Product> singleProduct = list.iterator();
 		while (singleProduct.hasNext()) {
 			Product p = singleProduct.next();
